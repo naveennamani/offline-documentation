@@ -1,0 +1,26 @@
+{
+  "name": "offline-documentation",
+  "version": "1.0.0",
+  "description": "Generate offline documentation for your favourite webites",
+  "main": "build_articles.mjs",
+  "scripts": {
+    "build": "npm run main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/random-programming-stuff/offline-documentation.git"
+  },
+  "keywords": [
+    "offline-documentation"
+  ],
+  "author": "Naveen Namani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/random-programming-stuff/offline-documentation/issues"
+  },
+  "homepage": "https://github.com/random-programming-stuff/offline-documentation#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.18.1",
+    "firebase-admin": "^10.0.2"
+  }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "ReactJs",
+        "website": "https://reactjs.org",
+        "repo": "reactjs/reactjs.org",
+        "commands": [
+            "yarn install",
+            "yarn build"
+        ],
+        "output_dir": "reactjs.org/public"
+    },
+    {
+        "name": "tailwindcss",
+        "website": "https://tailwindcss.com",
+        "repo": "tailwindlabs/tailwindcss.com",
+        "commands": [
+            "yarn install",
+            "yarn export"
+        ],
+        "output_dir": "tailwindcss.com/out"
+    },
+    {
+        "name":"Vite",
+        "website":"https://vitejs.dev",
+        "repo":"vitejs/vite",
+        "commands":[
+            "npm i -g pnpm",
+            "pnpm install",
+            "pnpm install -D",
+            "npx pnpm i --store=node_modules/.pnpm-store && npm run ci-docs"
+        ],
+        "output_dir":"vite/docs/.vitepress/dist"
+    },
+    {
+        "name": "Vuejs V3",
+        "website": "https://v3.vuejs.org",
+        "repo": "vuejs/docs",
+        "commands": [
+            "yarn install",
+            "yarn build"
+        ],
+        "output_dir": "docs/.vitepress/dist"
+    }
+]
